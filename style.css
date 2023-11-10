@@ -4,29 +4,32 @@ body {
   padding: 0;
   color: #333;
   background-color: #e7e7e7;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
-
+.pp {
+  position: absolute;
+  bottom: 440px;
+  left: 900px;
+}
 header,
 section,
 footer {
   margin: 20px;
   padding: 20px;
 }
-img {
-  border-radius: 5%;
-  border-style: unset;
-}
-
 header {
+  display: flex;
   background: #333;
   color: #fff;
   text-align: center;
-  padding: 5px 0px;
+  padding: 20px 75px;
 }
 
 header h1 {
   font-family: "Anton", sans-serif;
-  margin: 0 0 10px;
+  margin: 10 0 10px;
   font-size: 4rem;
 }
 
@@ -34,9 +37,10 @@ header h1 {
 .experience,
 .competences,
 .divers,
+.comp, /* j'ai rajouté la class .comp pour rajouté un contour blanc au "compétences" */
 .formation {
   background: #fff;
-  margin-bottom: 20px;
+  margin-top: 20px; /* permet de réguler l'écart entres paragraphes*/
 }
 
 h2 {
@@ -44,7 +48,7 @@ h2 {
   color: #333;
   padding-bottom: 10px;
   border-bottom: 3px solid #333;
-  border-right: 3px solid #333;
+  border-right: 3px solid #333; /* permet de rajouter des traits en dessous et sur le côté des h2*/
 }
 
 article {
@@ -53,29 +57,36 @@ article {
 
 .date {
   font-style: italic;
-  color: #666;
+  color: #666; /* j'ai créer une class pour ne modifier que les dates*/
 }
 
 footer {
   text-align: center;
   background: #333;
   color: black;
-  padding: 50px 50px;
+  padding: 30px 30px;
 }
 
 footer a {
   color: blue;
   text-decoration: underline;
+  /* permet de mieux voir les liens */
 }
 
 ul {
   list-style: none;
-  padding: 0;
 }
+/* permet de retirer les points*/
 
 ul li {
   background: #e7e7e7;
-  margin-bottom: 10px;
-  padding: 0px;
-  border-radius: 5px;
+  margin-bottom: 10px; /* permet de séparer chaque lien*/
+  padding: 5px;
+  border-radius: 5px; /* permet d'arrondir les rectangles */
+}
+.competences {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: first baseline;
 }

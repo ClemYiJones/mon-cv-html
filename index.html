@@ -5,7 +5,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
     <meta charset="UTF-8" />
@@ -15,11 +14,13 @@
   </head>
   <body>
     <header>
-      <h1>Clément Yi Jones</h1>
-      <img src="img_PNG_CLEMENT.png" alt="pp Clément" height="300" />
-      <p>
-        <strong><em>Etudiant à la NormandieWebSchool</em></strong>
-      </p>
+      <div class="Identite">
+        <h1>Clément Yi Jones</h1>
+        <p>
+          <strong><em>Etudiant à la NormandieWebSchool</em></strong>
+        </p>
+      </div>
+      <img src="img_PNG_CLEMENT.png" alt="pp Clément" height="300" class="pp" />
     </header>
     <section class="profil">
       <h2>Profil</h2>
@@ -43,6 +44,22 @@
         au sein de salon.
       </p>
     </section>
+    <section class="formation">
+      <h2>Formation</h2>
+      <article>
+        <h3>Bachelor (en formation)</h3>
+        <p class="date">2023 - 2026</p>
+        Etudiant en première année d'un bachelor "Chef de projets digitaux"
+        <a href="https://normandiewebschool.fr/"> Normandie Web School </a>,
+        Rouen (76100)
+        <h3>Baccalauréat</h3>
+        <p class="date">2021 - 2022</p>
+        Baccalauréat mention assez bien Mathématiques/Physique-Chimie
+        <a href="https://corneille-rouen.lycee.ac-normandie.fr/"
+          >Lycée Pierre Corneille</a
+        >, Rouen (76000)
+      </article>
+    </section>
     <section class="divers">
       <h2>DIVERS</h2>
       <article>
@@ -55,36 +72,36 @@
         suit le monde de l'esport.
       </article>
     </section>
-    <section class="formation">
-      <h2>Formation</h2>
-      <article>
-        <h3>Baccalauréat</h3>
-        <p class="date">2021 - 2022</p>
-        Baccalauréat mention assez bien Mathématiques/Physique-Chimie
-        <a href="https://corneille-rouen.lycee.ac-normandie.fr/"
-          >Lycée Pierre Corneille</a
-        >, Rouen (76000)
-        <h3>Bachelor (en formation)</h3>
-        <p class="date">2023 - 2026</p>
-        Etudiant en première année d'un bachelor "Chef de projets digitaux"
-        <a href="https://normandiewebschool.fr/"> Normandie Web School </a>,
-        Rouen (76100)
-      </article>
+    <div class="white_band"></div>
+    <section class="comp">
+      <h2>Compétences</h2>
+      <div class="white_band"></div>
     </section>
     <section class="competences">
-      <h2>Compétences</h2>
-      <h3>Soft skills</h3>
-      Créatif, Réfléchis Généreux, Réactif, Entreprenant, Curieux, Adaptation,
-      Esprit d'équipe.
-      <h3>Hard skills</h3>
+      <h3>Soft skills :</h3>
+      <table>
+        <tr>
+          <td>Créatif - Réfléchis</td>
+        </tr>
+        <tr>
+          <td>Généreux - Réactif</td>
+        </tr>
+        <tr>
+          <td>Entreprenant - Curieux</td>
+        </tr>
+        <tr>
+          <td>Adaptation - Esprit d'équipe</td>
+        </tr>
+      </table>
+      <h3>Hard skills :</h3>
       <table>
         <tr>
           <td>HTML</td>
-          <td>★★☆☆☆</td>
+          <td>★★★☆☆</td>
         </tr>
         <tr>
           <td>CSS</td>
-          <td>★☆☆☆☆</td>
+          <td>★★☆☆☆</td>
         </tr>
         <tr>
           <td>Adobe</td>
