@@ -2,11 +2,8 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
   color: #333;
-  background-color: #dcf2fd;
-  color: black;
-  background-color: #dcf2fd;
+  background-color: #e7e7e7;
 }
 
 header,
@@ -16,7 +13,7 @@ footer {
   padding: 20px;
 }
 img {
-  border-radius: 20%;
+  border-radius: 5%;
   border-style: solid;
 }
 
@@ -34,8 +31,9 @@ header h1 {
 
 .profil,
 .experience,
-.education,
-.competences {
+.competences,
+.divers,
+.formation {
   background: #fff;
   margin-bottom: 20px;
 }
