@@ -9,10 +9,10 @@ body {
   padding: 20px;
 }
 .pp {
-  position: absolute;
-  bottom: 440px;
-  left: 900px;
+  max-width: 50%;
+  height: fit-content;
 }
+
 header,
 section,
 footer {
@@ -24,13 +24,13 @@ header {
   background: #333;
   color: #fff;
   text-align: center;
-  padding: 20px 75px;
+  padding: 0px 75px;
 }
 
 header h1 {
   font-family: "Anton", sans-serif;
-  margin: 10 0 10px;
-  font-size: 4rem;
+  margin-bottom: 30px;
+  font-size: 5rem;
 }
 
 .profil,
