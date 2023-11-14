@@ -90,3 +90,27 @@ ul li {
   justify-content: space-around;
   align-items: first baseline;
 }
+/* Styles pour les téléphones */
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+  /* Autres styles spécifiques aux téléphones */
+}
+
+/* Styles pour les tablettes */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+  /* Autres styles spécifiques aux tablettes */
+}
+
+/* Styles pour les ordinateurs de bureau */
+@media (min-width: 1025px) {
+  .container {
+    width: 60%;
+  }
+  /* Autres styles spécifiques aux ordinateurs de bureau */
+}
