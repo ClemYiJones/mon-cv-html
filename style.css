@@ -4,9 +4,6 @@ body {
   padding: 0;
   color: #333;
   background-color: #e7e7e7;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
 }
 header,
 section,
@@ -20,7 +17,7 @@ header {
   align-items: center;
   background: #333;
   color: #fff;
-  padding: 0px 0px;
+  padding: 0px 75px;
 }
 
 header h1 {
