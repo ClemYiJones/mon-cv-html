@@ -4,15 +4,10 @@ body {
   padding: 0;
   color: #333;
   background-color: #e7e7e7;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 20px;
 }
-.pp {
-  max-width: 50%;
-  height: fit-content;
-}
-
 header,
 section,
 footer {
@@ -21,16 +16,16 @@ footer {
 }
 header {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background: #333;
   color: #fff;
-  text-align: center;
-  padding: 0px 75px;
+  padding: 0px 0px;
 }
 
 header h1 {
   font-family: "Anton", sans-serif;
-  margin-bottom: 30px;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .profil,
@@ -89,28 +84,4 @@ ul li {
   flex-direction: row;
   justify-content: space-around;
   align-items: first baseline;
-}
-/* Styles pour les téléphones */
-@media (max-width: 600px) {
-  .container {
-    width: 100%;
-    padding: 10px;
-  }
-  /* Autres styles spécifiques aux téléphones */
-}
-
-/* Styles pour les tablettes */
-@media (min-width: 601px) and (max-width: 1024px) {
-  .container {
-    width: 80%;
-  }
-  /* Autres styles spécifiques aux tablettes */
-}
-
-/* Styles pour les ordinateurs de bureau */
-@media (min-width: 1025px) {
-  .container {
-    width: 60%;
-  }
-  /* Autres styles spécifiques aux ordinateurs de bureau */
 }
